@@ -29,7 +29,9 @@ The `echo: false` option disables the printing of code (only output is displayed
 ```{r}
 library(tidyverse)
 library(ggplot2)
-library(lubridate)
+
+## Pulling in a template, it only needs to be written once -- could have just been run in the console -- I just want it for notes
+# usethis::use_github_action("render-rmarkdown.yaml")
 
 mtcars |> ggplot(aes(cyl, mpg)) + geom_point()
 ```
