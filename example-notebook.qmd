@@ -2,6 +2,7 @@
 title: "example-notebook.qmd"
 format: html
 editor: visual
+author: Emily Ellis
 ---
 
 ## Quarto
